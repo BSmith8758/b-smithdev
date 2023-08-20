@@ -1,0 +1,74 @@
+/*
+color pallete
+#a1ccd1
+#f4f2de
+#e9b384
+#7c9d96
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+#clockBox {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    background-color: #a1ccd1;
+    color:#7c9d96;
+
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #f4f2de;
+    align-self:flex-start;
+    text-align: center;
+}
+
+#innerClockBox {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#clockDisplay {
+    background-color: #f4f2de;
+    color: #7c9d96;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #7c9d96;
+}
+
+.clockButtons {
+    width: 150px;
+    margin: 0;
+    padding:0;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f4f2de;
+    border: 1px solid #7c9d96;
+    color: #7c9d96;
+}
+
+footer {
+    text-align: center;
+    height: 120px;
+    width: 100%;
+    align-self: flex-end;
+    background-color: #e9b384;
+    color: #f4f2de;
+}
